@@ -1,0 +1,45 @@
+.leaderboard-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.leaderboard-card {
+  width: 400px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.leaderboard-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+}
+
+.leaderboard-item:last-child {
+  border-bottom: none;
+}
+
+.score {
+  font-weight: bold;
+}
+
+/* Top 3 Highlight */
+.gold {
+  background: #fff8dc;
+  font-weight: bold;
+}
+
+.silver {
+  background: #f0f0f0;
+  font-weight: bold;
+}
+
+.bronze {
+  background: #ffe4c4;
+  font-weight: bold;
+}
